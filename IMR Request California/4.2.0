@@ -1,0 +1,23 @@
+Collecting nbformat
+  Downloading nbformat-5.9.0-py3-none-any.whl (77 kB)
+     -------------------------------------- 77.6/77.6 kB 716.2 kB/s eta 0:00:00
+Collecting jsonschema>=2.6
+  Downloading jsonschema-4.17.3-py3-none-any.whl (90 kB)
+     ---------------------------------------- 90.4/90.4 kB 1.7 MB/s eta 0:00:00
+Requirement already satisfied: traitlets>=5.1 in c:\users\marwafathin\appdata\roaming\python\python310\site-packages (from nbformat) (5.9.0)
+Collecting fastjsonschema
+  Downloading fastjsonschema-2.17.1-py3-none-any.whl (23 kB)
+Requirement already satisfied: jupyter-core in c:\users\marwafathin\appdata\roaming\python\python310\site-packages (from nbformat) (5.3.0)
+Collecting attrs>=17.4.0
+  Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+     ---------------------------------------- 61.2/61.2 kB 1.6 MB/s eta 0:00:00
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.19.3-cp310-cp310-win_amd64.whl (62 kB)
+     ---------------------------------------- 62.7/62.7 kB 1.1 MB/s eta 0:00:00
+Requirement already satisfied: platformdirs>=2.5 in c:\users\marwafathin\appdata\roaming\python\python310\site-packages (from jupyter-core->nbformat) (3.5.1)
+Requirement already satisfied: pywin32>=300 in c:\users\marwafathin\appdata\roaming\python\python310\site-packages (from jupyter-core->nbformat) (306)
+Installing collected packages: fastjsonschema, pyrsistent, attrs, jsonschema, nbformat
+Successfully installed attrs-23.1.0 fastjsonschema-2.17.1 jsonschema-4.17.3 nbformat-5.9.0 pyrsistent-0.19.3
+
+[notice] A new release of pip available: 22.2 -> 23.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
